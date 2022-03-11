@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.calculadora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: rgba(17, 17, 17, 0.952);
+}
+.number, .sinais {
+  height: 60px;
+  width: 60px;
+  font-size: large;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.number {
+  background-color: rgb(8, 8, 8);
+}
+
+.sinais {
+  background-color: rgb(24, 24, 24);
+}
+
+.layout {
+  display: flex;
+   background-color: rgb(39, 39, 39);
+   width: 300px;
+   justify-content: center;
+   border-radius: 10px;
+}
+.calc {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 450px;
+  justify-content: center;
+}
+.visor {
+  height: 60px;
+  width: 100%;
+  border-bottom: 3px solid #111111c7;
+  margin-bottom: .6rem;
+  color: white;
+  padding: 1rem;
+}
+.botao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: .1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: rgba(17, 17, 17, 0.952);
+}
+
+footer h1 {
+  color: #e6e6e6;
+  font-size: 24px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e6e6e6;
+}
