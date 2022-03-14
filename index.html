@@ -8,39 +8,39 @@
     <link rel="stylesheet" href="./src/style.css" />
     <script src="./src/script.js" defer></script>
   </head>
-  <body>
+  <body id="body">
     <section>
       <div class="calculadora">
         <div class="layout">
           <div class="calc">
             <div class="botao">
               <div class="visor" id="visor"></div>
-              <button class="sinais" onclick="clean()">C</button>
-              <button class="sinais" onclick="back()">&lt;&lt;</button>
+              <div class="sinais" onclick="clean()">C</div>
+              <div class="sinais" onclick="back()">&lt;&lt;</div>
             </div>
             <div class="botao">
-              <button class="number" onclick="insert('1')">1</button>
-              <button class="number" onclick="insert('2')">2</button>
-              <button class="number" onclick="insert('3')">3</button>
-              <button class="sinais" onclick="insert('*')">x</button>
+              <div class="number" onclick="insert('1')">1</div>
+              <div class="number" onclick="insert('2')">2</div>
+              <div class="number" onclick="insert('3')">3</div>
+              <div class="sinais" onclick="insert('*')">x</div>
             </div>
             <div class="botao">
-              <button class="number" onclick="insert('4')">4</button>
-              <button class="number" onclick="insert('5')">5</button>
-              <button class="number" onclick="insert('6')">6</button>
-              <button class="sinais" onclick="insert('-')">-</button>
+              <div class="number" onclick="insert('4')">4</div>
+              <div class="number" onclick="insert('5')">5</div>
+              <div class="number" onclick="insert('6')">6</div>
+              <div class="sinais" onclick="insert('-')">-</div>
             </div>
             <div class="botao">
-              <button class="number" onclick="insert('7')">7</button>
-              <button class="number" onclick="insert('8')">8</button>
-              <button class="number" onclick="insert('9')">9</button>
-              <button class="sinais" onclick="insert('+')">+</button>
+              <div class="number" onclick="insert('7')">7</div>
+              <div class="number" onclick="insert('8')">8</div>
+              <div class="number" onclick="insert('9')">9</div>
+              <div class="sinais" onclick="insert('+')">+</div>
             </div>
             <div class="botao">
-              <button class="number" onclick="insert('0')">0</button>
-              <button class="sinais" onclick="insert('.')">.</button>
-              <button class="sinais" onclick="insert('/')">/</button>
-              <button class="sinais" id="res" onclick="calcular()">=</button>
+              <div class="number" onclick="insert('0')">0</div>
+              <div class="sinais" onclick="insert('.')">.</div>
+              <div class="sinais" onclick="insert('/')">/</div>
+              <div class="sinais" id="res" onclick="calcular()" onkeypress="enter()">=</div>
             </div>
           </div>
         </div>

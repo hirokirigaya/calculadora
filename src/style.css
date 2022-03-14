@@ -73,3 +73,18 @@ footer a {
   text-decoration: none;
   color: #e6e6e6;
 }
+
+.number, .sinais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#res {
+  background-color: rgb(15, 10, 22);
+}
+
+.number:hover, .sinais:hover, #res:hover {
+  background-color: rgb(43, 43, 43);
+}
