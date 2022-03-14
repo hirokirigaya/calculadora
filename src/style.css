@@ -45,13 +45,16 @@
 .visor {
   height: 60px;
   width: 100%;
+  border: none;
   border-bottom: 3px solid #111111c7;
   margin-bottom: 0.6rem;
   color: white;
   padding: 1rem;
+  background-color: rgb(39, 39, 39);
+  outline: none;
   max-width: 31ch;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
   white-space: nowrap;
 }
 .botao {
