@@ -10,7 +10,6 @@ function insert(Calcule) {
   visor.innerHTML = numero + Calcule
 }
 
-
 body.addEventListener('keydown', (keypress) =>  {
   // let keybutton = Number(keypress.key)
   // if(keybutton = Number(keypress.key)) 
@@ -26,7 +25,6 @@ body.addEventListener('keydown', (keypress) =>  {
   }
 })
 
-
 function clean() {
   let clean = visor.innerHTML;
   visor.innerHTML = ''
@@ -37,7 +35,6 @@ function back() {
   if(back)
   {visor.innerHTML = back.substring(0, back.length - 1)}
   else return
-  
 }
 
 function calcular() {
