@@ -3,7 +3,7 @@
 const visor = document.getElementById('visor')
 const res = document.getElementById('res')
 const body = document.getElementById('body')
-const numeros = ['1','2','3','4','5','6','7','8','9','0','-','+','/','*']
+const numeros = ['1','2','3','4','5','6','7','8','9','0','-','+','/','*','.']
 
 function insert(Calcule) {
   let numero = visor.innerHTML;
